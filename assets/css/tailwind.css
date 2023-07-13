@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#root {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+::selection {
+    @apply bg-bcLightestNavy text-bcLightestSlate;
+}
+
+:focus {
+    @apply outline-bcStyle;
+}
+
+/* Scrollbar Styles */
+/* html {
+    scrollbar-width: thin;
+    scrollbar-color: #495670 #0a192f;
+} */
+body::-webkit-scrollbar {
+    width: 6px;
+}
+body::-webkit-scrollbar-track {
+    @apply bg-bgColor;
+}
+body::-webkit-scrollbar-thumb {
+    @apply bg-bcDarkSlate rounded-lg border-bgColor border-8;
+}
+
+body {
+    @apply bg-bgColor text-bcSlate font-sans text-bcXl leading-snug
+    antialiased m-0 w-full min-h-full overflow-x-hidden;
+    counter-reset: section;
+}
+
+main {
+    @apply lg:px-36 lg:py-48 lg:w-full lg:max-w-[1600px] lg:min-h-screen lg:my-0 lg:mx-auto
+    md:px-24 md:py-48 sm:px-12 sm:py-36 px-6 py-32;
+}
+
+main.fillHeight {
+    @apply lg:px-36 lg:py-0 md:px-24 md:py-0 sm:px-12 sm:py-0 px-6 py-0;
+}
+
+section {
+    @apply py-16 px-0 sm:py-20 md:my-0 md:mx-auto md:py-24 md:max-w-5xl;
+}
+
+img,
+svg {
+    @apply align-middle;
+}
+
+a {
+    @apply cursor-pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-semibold text-bcColorTitle leading-tight;
+}
+
+.bigHeading {
+    font-size: clamp(40px, 8vw, 60px);
+}
+.mediumHeading {
+    font-size: clamp(40px, 8vw, 50px);
+}
+.numberedHeading {
+    @apply items-center flex relative w-full;
+    margin: 10px 0 40px;
+    font-size: clamp(26px, 5vw, 32px);
+    white-space: nowrap;
+}
+.numberedHeading:before {
+    counter-increment: section;
+    content: "0" counter(section) ".";
+    font-size: clamp(16px, 3vw, 20px);
+    @apply relative font-mono text-bcColor font-normal -mb-bcTabMR mr-bcTabMR sm:mr-3;
+}
+.numberedHeading:after {
+    content: "";
+    @apply block relative  w-full h-[1px] ml-[10px] bg-bcLightestNavy
+    md:w-[200px] lg:w-[300px];
+}
+
+.numberedContactHeading {
+    @apply font-mono mt-3 mx-0 mb-5  whitespace-nowrap text-bcLg text-bcColor;
+}
+.numberedContactHeading:before {
+    counter-increment: section;
+    content: "0" counter(section) ".";
+    @apply relative font-mono text-bcColor font-normal -mb-bcTabMR mr-bcTabMR sm:mr-3;
+}
+
+/* Components */
+.bigButton {
+    @apply font-mono text-bcColor bg-transparent border border-bcColor 
+    rounded transition duration-250 ease-bcEasing hover:bg-opacity-10 hover:bg-bcColor
+    focus:outline-none;
+}
+
+/* Directives */
+.transition {
+    @apply transition-all duration-700 ease-in-out;
+}
+.enter {
+    @apply opacity-100 transform translate-y-0;
+}
+.before-enter {
+    @apply opacity-0 transform translate-y-36;
+}
+.fade-down {
+    @apply opacity-100 transform translate-y-0;
+}
+.before-fade-down {
+    @apply opacity-0 transform -translate-y-5;
+}
+.fade-up {
+    @apply opacity-100 transform translate-y-0;
+}
+.before-fade-up {
+    @apply opacity-0 transform translate-y-5;
+}
+.fade {
+    @apply opacity-100;
+}
+.before-fade {
+    @apply opacity-0;
+}
