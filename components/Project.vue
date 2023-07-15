@@ -90,41 +90,24 @@
 <script>
 export default {
     props: {
-        order: {
-            require: true,
-        },
-        title: {
-            type: String,
-            require: true,
-        },
-        githubUrl: {
-            type: String,
-            require: false,
-        },
-        demoLink: {
-            type: String,
-            require: false,
-        },
-        previewTexts: {
-            type: Array,
-            require: true,
-        },
-        thumbnailUrl: {
-            type: String,
-            require: true,
-        },
-        tags: {
-            type: Array,
-            require: true,
-        },
+        order: Number,
+        title: String,
+        githubUrl: String,
+        demoLink: String,
+        previewTexts: Array,
+        thumbnailUrl: String,
+        tags: Array
     },
     computed: {
         imgUrlStyle() {
-            return `background-image: url('${this.thumbnailUrl}')`;
-        },
-    },
+            return {
+                backgroundImage: `url(${this.thumbnailUrl})`
+            }
+        }
+    }
 };
 </script>
+
 
 <style lang="scss" scoped>
 .imgContainer {

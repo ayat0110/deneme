@@ -7,7 +7,7 @@
                 alt=""
             />
         </div> -->
-        <div style="margin-top: 10%;">
+        <div style="margin-top: 13%;">
             <h1
                 v-animate-delay:fade-up="1200"
                 class="bcColorFont mb-[30px] ml-1 sm:mb-5 sm:ml-[2px]"

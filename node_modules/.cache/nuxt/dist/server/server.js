@@ -1840,9 +1840,9 @@ function shouldScrollToTop(route) {
 
 
 
-const _ead89ab4 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 8).then(__webpack_require__.bind(null, 87)));
+const _ead89ab4 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 8).then(__webpack_require__.bind(null, 90)));
 
-const _582757c0 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 9).then(__webpack_require__.bind(null, 88)));
+const _582757c0 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 9).then(__webpack_require__.bind(null, 91)));
 
 const emptyFn = () => {};
 
@@ -2772,12 +2772,12 @@ const components = {
   Overlay: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 57)).then(c => wrapFunctional(c.default || c)),
   Project: () => __webpack_require__.e(/* import() | components/project */ 1).then(__webpack_require__.bind(null, 66)).then(c => wrapFunctional(c.default || c)),
   Side: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 56)).then(c => wrapFunctional(c.default || c)),
-  SectionsAbout: () => __webpack_require__.e(/* import() | components/sections-about */ 2).then(__webpack_require__.bind(null, 79)).then(c => wrapFunctional(c.default || c)),
-  SectionsContact: () => __webpack_require__.e(/* import() | components/sections-contact */ 3).then(__webpack_require__.bind(null, 82)).then(c => wrapFunctional(c.default || c)),
-  SectionsGithubElement: () => __webpack_require__.e(/* import() | components/sections-github-element */ 4).then(__webpack_require__.bind(null, 89)).then(c => wrapFunctional(c.default || c)),
-  SectionsHero: () => __webpack_require__.e(/* import() | components/sections-hero */ 5).then(__webpack_require__.bind(null, 78)).then(c => wrapFunctional(c.default || c)),
-  SectionsJobs: () => __webpack_require__.e(/* import() | components/sections-jobs */ 6).then(__webpack_require__.bind(null, 80)).then(c => wrapFunctional(c.default || c)),
-  SectionsProjects: () => __webpack_require__.e(/* import() | components/sections-projects */ 7).then(__webpack_require__.bind(null, 81)).then(c => wrapFunctional(c.default || c))
+  SectionsAbout: () => __webpack_require__.e(/* import() | components/sections-about */ 2).then(__webpack_require__.bind(null, 82)).then(c => wrapFunctional(c.default || c)),
+  SectionsContact: () => __webpack_require__.e(/* import() | components/sections-contact */ 3).then(__webpack_require__.bind(null, 85)).then(c => wrapFunctional(c.default || c)),
+  SectionsGithubElement: () => __webpack_require__.e(/* import() | components/sections-github-element */ 4).then(__webpack_require__.bind(null, 92)).then(c => wrapFunctional(c.default || c)),
+  SectionsHero: () => __webpack_require__.e(/* import() | components/sections-hero */ 5).then(__webpack_require__.bind(null, 81)).then(c => wrapFunctional(c.default || c)),
+  SectionsJobs: () => __webpack_require__.e(/* import() | components/sections-jobs */ 6).then(__webpack_require__.bind(null, 83)).then(c => wrapFunctional(c.default || c)),
+  SectionsProjects: () => __webpack_require__.e(/* import() | components/sections-projects */ 7).then(__webpack_require__.bind(null, 84)).then(c => wrapFunctional(c.default || c))
 };
 
 for (const name in components) {
