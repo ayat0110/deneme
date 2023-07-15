@@ -115,23 +115,6 @@
                 </svg>
             </a>
         </div>
-        <a
-            href="https://github.com/weicheng2138/portfolio-nuxt"
-            class="text-gray-300 hover:text-emerald-500 font-mono text-xs p-1"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Built by Keck Hung
-        </a>
-
-        <a
-            href="https://github.com/bchiang7/v4"
-            class="text-gray-300 hover:text-emerald-300 font-mono text-xs p-1"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Refer to Brittany Chiang's portfolio
-        </a>
     </section>
 </template>
 

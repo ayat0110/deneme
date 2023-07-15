@@ -18,7 +18,6 @@ import nuxt_plugin_pluginclient_1a9a7778 from 'nuxt_plugin_pluginclient_1a9a7778
 import nuxt_plugin_pluginserver_586c35cc from 'nuxt_plugin_pluginserver_586c35cc' // Source: ./content/plugin.server.js (mode: 'server')
 import nuxt_plugin_workbox_363ead0c from 'nuxt_plugin_workbox_363ead0c' // Source: ./workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_c7c452e6 from 'nuxt_plugin_metaplugin_c7c452e6' // Source: ./pwa/meta.plugin.js (mode: 'all')
-import nuxt_plugin_iconplugin_be7507fe from 'nuxt_plugin_iconplugin_be7507fe' // Source: ./pwa/icon.plugin.js (mode: 'all')
 import nuxt_plugin_axios_d0a49844 from 'nuxt_plugin_axios_d0a49844' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_animateDelayObserverclient_1bc9c628 from 'nuxt_plugin_animateDelayObserverclient_1bc9c628' // Source: ../plugins/animateDelayObserver.client.js (mode: 'client')
 
@@ -206,10 +205,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_metaplugin_c7c452e6 === 'function') {
     await nuxt_plugin_metaplugin_c7c452e6(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_iconplugin_be7507fe === 'function') {
-    await nuxt_plugin_iconplugin_be7507fe(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_d0a49844 === 'function') {

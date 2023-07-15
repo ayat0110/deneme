@@ -5,20 +5,22 @@
             <div class="col-span-3">
                 <div>
                     <p class="my-4">
-                        I'm a whiz at interpreting data and transforming it into
+                       I love interpreting data and transforming it into
                         useful information.
                     </p>
                     <p class="my-4">
-                        The reason why I'm interested in web development started
-                        back in 2015 when I am struggle in develop an internal
-                        system with JavaServer Pages（JSP）in Anhe. After that
-                        we switch the developing direction to Angular 2, then
-                        every turns out to be bright and interesting.
+                        My interest in web development began during 
+                        my second year at university when I was exploring 
+                        different fields to find the right fit. I was instantly
+                        captivated by frontend development because it allowed me
+                        to combine my passion for coding with my love for colors
+                        and designs,then everything turns out to be bright and interesting ever since.
                     </p>
                     <p class="my-4">
-                        Problem based learning is always my key way of solving
-                        problems which clear my purpose and also solve the
-                        problem effetively.
+                        
+                        Now let me introduce you to the FrontendSimply community, which now connects over 24,000 members together. 
+                        Allows me to share my coding projects, inspire fellow developers, and do mentorship sessions. 
+                        Feel free to to join us now on <a style="text-decoration: underline;" href="https://www.instagram.com/frontendsimply/">frontendsimply</a>  
                     </p>
                     <p>
                         Here are technologies I've been working with recently:
@@ -30,11 +32,11 @@
                         overflow-hidden
                         list-none
                         grid grid-flow-col grid-cols-2 grid-rows-2
-                        gap-y-0 gap-x-4
+                        gap-y-0 gap-x-4 deneme
                     "
                 >
                     <li
-                        class="relative mb-[10px] pl-5 font-mono text-bcSm"
+                        class="relative mb-[10px] pl-5 font-mono text-bcSm "
                         v-for="skill in skills"
                         :key="skill"
                     >
@@ -44,7 +46,7 @@
             </div>
             <div class="col-span-2 max-w-[300px] mt-6 mb-60 mx-auto">
                 <div class="imgWrapper">
-                    <img src="~/static/img/me_with-back-ground.jpg" />
+                    <img src="~/static/img/profile_image.png" />
                 </div>
             </div>
         </div>
@@ -55,7 +57,7 @@
 export default {
     data() {
         return {
-            skills: ["JavaScript (ES6+)", "Vue", "Node.js"],
+            skills: ["Js (ES6+)", "Vue 3", "Nuxt", "CSS3", "HTML5", "Pyhton", "React js", "Webpack", "Gulp", "Tailwind", "Git"], 
         };
     },
 };
@@ -103,5 +105,11 @@ li:before {
     &:after {
         @apply border-2	border-solid border-bcColor top-[20px] left-[20px] z-0;
     }
+}
+@media screen and (max-width: 500px) {
+ .deneme{
+    display:flex;
+    flex-direction:column;
+ }
 }
 </style>

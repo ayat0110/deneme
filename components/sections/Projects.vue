@@ -42,15 +42,7 @@ export default {
     created() {
         this.socialMedia = socialMedia;
         this.projectNames = projectNames;
-    },
-    // async fetch() {
-    //     const reponse = await fetch(
-    //         "https://api.github.com/users/weicheng2138/repos"
-    //     );
-    //     const result = await reponse.json();
-    //     console.log(result);
-    //     console.log(this.projectNames);
-    // },
+    }
 };
 </script>
 

@@ -10,8 +10,9 @@
         ></div>
 
         <div
-            class="relative mx-4 mb-2 sm:mx-8 mt-[10%] flex flex-col md:w-8/12"
+            class="relative mx-4 mb-2 sm:mx-8 mt-[10%] flex flex-col md:w-8/12 deneme2"
             :class="[order ? 'md:items-end' : 'md:items-start']"
+        
         >
             <h3 class="z-0 text-bcColor font-mono text-bcXxs pb-3">
                 Featured Project
@@ -32,7 +33,7 @@
             >
                 {{ previewTexts[0].point1 }}
             </p>
-            <ul class="z-20 flex flex-row font-mono text-bcXs pb-4">
+            <ul class="z-20 flex flex-row font-mono text-bcXs pb-4 deneme3">
                 <li v-for="tag in tags" :key="tag" class="pr-4">{{ tag }}</li>
             </ul>
             <div class="z-10 md:z-0 flex flex-row -ml-3">
@@ -131,8 +132,23 @@ export default {
     md:hover:bg-blend-normal md:opacity-100 md:w-8/12 md:top-1/4 h-full rounded-md;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 54.667%;
+    
 }
 a {
     @apply flex p-3 hover:text-bcColor text-bcLightestSlate transition duration-500 ease-bcEasing;
+}
+
+ .deneme2{
+width: 39.667% 
+  }
+@media screen and (max-width: 600px) {
+  .deneme2{
+width: 80%
+  }
+  .deneme3{
+    display: flex;
+flex-direction: column;
+  }
 }
 </style>

@@ -7,7 +7,7 @@
             interested, email me.
         </p>
         <a
-            href="mailto:weicheng2138@gmail.com"
+            href="mailto:ayatalzidi2000@gmail.com"
             class="flex bigButton text-bcSm px-7 py-5 w-max mt-bcTouchButton"
         >
             Get In Touch

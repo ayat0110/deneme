@@ -7,7 +7,7 @@
                 alt=""
             />
         </div> -->
-        <div>
+        <div style="margin-top: 10%;">
             <h1
                 v-animate-delay:fade-up="1200"
                 class="bcColorFont mb-[30px] ml-1 sm:mb-5 sm:ml-[2px]"
@@ -18,26 +18,25 @@
                 v-animate-delay:fade-up="1300"
                 class="text-bcColorTitle bigHeading"
             >
-                Weicheng Hung.
+                Ayat Alzaidi.
             </h2>
             <h3
                 v-animate-delay:fade-up="1400"
                 class="text-bcSlate bigHeading mt-2 leading-[0.9]"
             >
-                I create things and enjoy the process of it.
+                I am the founder of the thriving community, FrontendSimply.
             </h3>
             <p
                 v-animate-delay:fade-up="1500"
                 class="text-bcSlate mt-5 mb-0 max-w-lg leading-[1.3] text-bcLg"
             >
-                I'm a software engineer specializing in building interfaces and
-                application of web. Since I have not worked in a solid software
-                team, I would like to join one to improve my co-working skill
-                and UX techniques.
+                I'm a computer engineer specializing in building interfaces and
+                applications for the web.Seeking an opportunity to join a dynamic software team,I am eager to enhance 
+                my collaboration skills and further to develop my Frontend development skills in a stimulating work environment.
             </p>
             <a
                 v-animate-delay:fade-up="1600"
-                href="mailto:weicheng2138@gmail.com"
+                href="mailto:hayatvefa2000@gmail.com"
                 class="
                     flex
                     bigButton
