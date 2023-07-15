@@ -1,22 +1,22 @@
 module.exports = {
-    email: "weicheng2138g@gmail.com",
+    email: "ayatalzidi2000@gmail.com",
 
     socialMedia: [
         {
             name: "GitHub",
-            url: "https://github.com/weicheng2138",
+            url: "https://github.com/ayat0110",
         },
         {
             name: "Instagram",
-            url: "https://www.instagram.com/keckhung2138",
+            url: "https://www.instagram.com/frontendsimply/",
         },
         {
             name: "Linkedin",
-            url: "https://www.linkedin.com/in/wei-cheng-hung-3a40a0149",
+            url: "https://www.linkedin.com/in/ayat-alzaidi/",
         },
         {
             name: "Codepen",
-            url: "https://codepen.io/weicheng2138",
+            url: "https://codepen.io/ayat0110",
         },
     ],
 
