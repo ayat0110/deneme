@@ -2,7 +2,7 @@ export default {
     target: "static",
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: "Weicheng Hung",
+        title: "Ayat Alzaidi",
         meta: [
             { charset: "utf-8" },
             {
@@ -12,10 +12,10 @@ export default {
             {
                 hid: "description",
                 name: "portfolio",
-                content: "Portfolio practice for weicheng hung",
+                content: "Ayat Alzaidi portfolio page",
             },
         ],
-        link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+        
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
