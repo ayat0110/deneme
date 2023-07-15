@@ -436,19 +436,19 @@ function renderStyles (styles) {
 /***/ (function(module, exports) {
 
 module.exports = {
-  email: "weicheng2138g@gmail.com",
+  email: "ayatalzidi2000@gmail.com",
   socialMedia: [{
     name: "GitHub",
-    url: "https://github.com/weicheng2138"
+    url: "https://github.com/ayat0110"
   }, {
     name: "Instagram",
-    url: "https://www.instagram.com/keckhung2138"
+    url: "https://www.instagram.com/frontendsimply/"
   }, {
     name: "Linkedin",
-    url: "https://www.linkedin.com/in/wei-cheng-hung-3a40a0149"
+    url: "https://www.linkedin.com/in/ayat-alzaidi/"
   }, {
     name: "Codepen",
-    url: "https://codepen.io/weicheng2138"
+    url: "https://codepen.io/ayat0110"
   }],
   navLinks: [{
     name: "About",
@@ -3409,7 +3409,7 @@ async function createApp(ssrContext, config = {}) {
 
   const app = {
     head: {
-      "title": "Weicheng Hung",
+      "title": "Ayat Alzaidi",
       "meta": [{
         "charset": "utf-8"
       }, {
@@ -3418,13 +3418,9 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "description",
         "name": "portfolio",
-        "content": "Portfolio practice for weicheng hung"
+        "content": "Ayat Alzaidi portfolio page"
       }],
-      "link": [{
-        "rel": "icon",
-        "type": "image\u002Fx-icon",
-        "href": "\u002Ffavicon.ico"
-      }],
+      "link": [],
       "style": [],
       "script": []
     },
