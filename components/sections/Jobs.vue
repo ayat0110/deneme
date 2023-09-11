@@ -17,7 +17,7 @@
                 <transition name="fade">
                     <div id="0" v-if="actvieTabId === 0" class="absolute">
                         <h3>Frontend Developer</h3>
-                        <p>Mar 2022 - Dec 2022</p>
+                        <p>08-2022 - 06-2023</p>
                         <div>
                             <ul>
                                 <li>
