@@ -4,6 +4,7 @@
         <div class="flex min-h-[450px] sm:min-h-[300px]">
             <div class="flex flex-col relative w-max p-0 m-0 list-none">
                 <button @click="actvieTabId = 0">ELEKTROMARKETIM </button>
+                 <button @click="actvieTabId = 1">Umelsan </button>
                
                 <span
                     class="highLight"
@@ -30,6 +31,30 @@
                                 </li>
                                 <li>
                                     BEM
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </transition>
+            
+            </div>
+            <div class="inner">
+                <transition name="fade">
+                    <div id="0" v-if="actvieTabId === 1" class="absolute">
+                        <h3>Software Engineer</h3>
+                        <p>03-2021 - 07-2022</p>
+                        <div>
+                            <ul>
+                                <li>
+                                    Vue js
+                                </li>
+                                <li>express.js</li>
+                                <li>Socket.io </li>
+                                <li>
+                                     JavaScript
+                                </li>
+                                <li>
+                                    JWT
                                 </li>
                             </ul>
                         </div>

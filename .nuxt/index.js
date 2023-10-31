@@ -12,14 +12,14 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_dc46c670 from 'nuxt_plugin_plugin_dc46c670' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_templatesplugin7334b430_30196102 from 'nuxt_plugin_templatesplugin7334b430_30196102' // Source: ./templates.plugin.7334b430.js (mode: 'all')
-import nuxt_plugin_pluginclient_1a9a7778 from 'nuxt_plugin_pluginclient_1a9a7778' // Source: ./content/plugin.client.js (mode: 'client')
-import nuxt_plugin_pluginserver_586c35cc from 'nuxt_plugin_pluginserver_586c35cc' // Source: ./content/plugin.server.js (mode: 'server')
-import nuxt_plugin_workbox_363ead0c from 'nuxt_plugin_workbox_363ead0c' // Source: ./workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_c7c452e6 from 'nuxt_plugin_metaplugin_c7c452e6' // Source: ./pwa/meta.plugin.js (mode: 'all')
-import nuxt_plugin_axios_d0a49844 from 'nuxt_plugin_axios_d0a49844' // Source: ./axios.js (mode: 'all')
-import nuxt_plugin_animateDelayObserverclient_1bc9c628 from 'nuxt_plugin_animateDelayObserverclient_1bc9c628' // Source: ../plugins/animateDelayObserver.client.js (mode: 'client')
+import nuxt_plugin_plugin_591d3bb2 from 'nuxt_plugin_plugin_591d3bb2' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_templatesplugin7cd14928_6b1ec5c1 from 'nuxt_plugin_templatesplugin7cd14928_6b1ec5c1' // Source: .\\templates.plugin.7cd14928.js (mode: 'all')
+import nuxt_plugin_pluginclient_53357368 from 'nuxt_plugin_pluginclient_53357368' // Source: .\\content\\plugin.client.js (mode: 'client')
+import nuxt_plugin_pluginserver_8e223620 from 'nuxt_plugin_pluginserver_8e223620' // Source: .\\content\\plugin.server.js (mode: 'server')
+import nuxt_plugin_workbox_0bcc3eb1 from 'nuxt_plugin_workbox_0bcc3eb1' // Source: .\\workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_22e9f231 from 'nuxt_plugin_metaplugin_22e9f231' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
+import nuxt_plugin_axios_241b2ad5 from 'nuxt_plugin_axios_241b2ad5' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_animateDelayObserverclient_1bc9c628 from 'nuxt_plugin_animateDelayObserverclient_1bc9c628' // Source: ..\\plugins\\animateDelayObserver.client.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -69,7 +69,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Ayat Alzaidi","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"portfolio","content":"Ayat Alzaidi portfolio page"}],"link":[],"style":[],"script":[]},
+    head: {"title":"Ayat Akinci","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"portfolio","content":"Ayat Alzaidi portfolio page"}],"link":[],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -183,32 +183,32 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_dc46c670 === 'function') {
-    await nuxt_plugin_plugin_dc46c670(app.context, inject)
+  if (typeof nuxt_plugin_plugin_591d3bb2 === 'function') {
+    await nuxt_plugin_plugin_591d3bb2(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_templatesplugin7334b430_30196102 === 'function') {
-    await nuxt_plugin_templatesplugin7334b430_30196102(app.context, inject)
+  if (typeof nuxt_plugin_templatesplugin7cd14928_6b1ec5c1 === 'function') {
+    await nuxt_plugin_templatesplugin7cd14928_6b1ec5c1(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_pluginclient_1a9a7778 === 'function') {
-    await nuxt_plugin_pluginclient_1a9a7778(app.context, inject)
+  if (process.client && typeof nuxt_plugin_pluginclient_53357368 === 'function') {
+    await nuxt_plugin_pluginclient_53357368(app.context, inject)
   }
 
-  if (process.server && typeof nuxt_plugin_pluginserver_586c35cc === 'function') {
-    await nuxt_plugin_pluginserver_586c35cc(app.context, inject)
+  if (process.server && typeof nuxt_plugin_pluginserver_8e223620 === 'function') {
+    await nuxt_plugin_pluginserver_8e223620(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_363ead0c === 'function') {
-    await nuxt_plugin_workbox_363ead0c(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_0bcc3eb1 === 'function') {
+    await nuxt_plugin_workbox_0bcc3eb1(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_metaplugin_c7c452e6 === 'function') {
-    await nuxt_plugin_metaplugin_c7c452e6(app.context, inject)
+  if (typeof nuxt_plugin_metaplugin_22e9f231 === 'function') {
+    await nuxt_plugin_metaplugin_22e9f231(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_d0a49844 === 'function') {
-    await nuxt_plugin_axios_d0a49844(app.context, inject)
+  if (typeof nuxt_plugin_axios_241b2ad5 === 'function') {
+    await nuxt_plugin_axios_241b2ad5(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_animateDelayObserverclient_1bc9c628 === 'function') {

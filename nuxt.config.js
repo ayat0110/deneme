@@ -2,7 +2,7 @@ export default {
     target: "static",
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: "Ayat Alzaidi",
+        title: "Ayat Akinci",
         meta: [
             { charset: "utf-8" },
             {
@@ -12,7 +12,7 @@ export default {
             {
                 hid: "description",
                 name: "portfolio",
-                content: "Ayat Alzaidi portfolio page",
+                content: "Ayat Akinci portfolio page",
             },
         ],
         
