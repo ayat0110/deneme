@@ -18,7 +18,7 @@
                 v-animate-delay:fade-up="1300"
                 class="text-bcColorTitle bigHeading"
             >
-                Ayat Akinci.
+                Ayat Akıncı.
             </h2>
             <h3
                 v-animate-delay:fade-up="1400"
